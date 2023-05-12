@@ -485,6 +485,13 @@ p {
     font-size: var(--h3-font-size);
 }
 
+.skills__title_bn {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: var(--mb-0-5);
+    font-size: var(--h3-font-size);
+}
+
 .skills__name {
     font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
@@ -509,6 +516,50 @@ p {
     background-color: var(--first-color);
 }
 
+/* Skills buttons  */
+.button-1 {
+  background-color: var(--first-color);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  margin-right: 10px;
+  display: inline-block;
+  font-family: var(--body-font);
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: var(--first-color-alt);
+}
+.skills_button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--container-color);
+    padding: 0.5rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+.skills_button:hover {
+    background-color: var(--first-color-alt);
+}
+
 /* ----- skills 1, 2, 3 n 4 ------ */
 .skills__python {
     width: 90%;
@@ -526,6 +577,14 @@ p {
     width: 65%;
 }
 
+.skills__serverless {
+    width: 80%;
+}
+
+.skills__amplify {
+    width: 70%;
+}
+
 .skills__html {
     width: 80%;
 }
@@ -534,8 +593,12 @@ p {
     width: 80%;
 }
 
-.skills__flask, .skills__api, .skills__js {
+.skills__js {
     width: 75%;
+}
+
+.skills__flask {
+    width: 70%;
 }
 
 .skills__numpy, .skills__pandas {
@@ -572,6 +635,10 @@ p {
 
 .skills__aws {
     width: 65%;
+}
+
+.effects_tools {
+    color: var(--first-color);
 }
 
 /* -------- end ----------- */
