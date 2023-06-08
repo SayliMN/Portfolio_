@@ -585,8 +585,12 @@ p {
     width: 70%;
 }
 
-.skills__html {
+.skills_react {
     width: 80%;
+}
+
+.skills__html {
+    width: 85%;
 }
 
 .skills__css, .skills__boot{
@@ -601,40 +605,20 @@ p {
     width: 70%;
 }
 
-.skills__numpy, .skills__pandas {
-    width: 90%;
+.skills__node{
+    width: 75%;
 }
 
-.skills__mat, .skills__sklearn {
-    width: 85%;
-}
-
-.skills__CV2, .skills__tensor {
+.skills__mysql{
     width: 80%;
 }
 
-.skills__nltk, .skills__sns {
+.skills__DB{
     width: 80%;
 }
 
-.skills__stats {
-    width: 70%;
-}
-
-.skills__jnnc, .skills__code, .skills__pycharm {
-    width: 90%;
-}
-
-.skills__git {
-    width: 85%;
-}
-
-.skills__mysql, .skills__tableau, .skills__bench {
-    width: 80%;
-}
-
-.skills__aws {
-    width: 65%;
+.skills__firestore{
+    width: 75%;
 }
 
 .effects_tools {
